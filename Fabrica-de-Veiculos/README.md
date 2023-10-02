@@ -1,18 +1,28 @@
-## Getting Started
+## Sistema de Criação de Veículos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um exemplo em Java que utiliza o padrão de projeto **Factory Method** para criar veículos (Carro ou Moto).
 
-## Folder Structure
+### Padrão de Projeto: Factory Method
 
-The workspace contains two folders by default, where:
+O **Factory Method** é um padrão de projeto criacional que fornece uma interface para criar objetos, permitindo que subclasses alterem o tipo de objetos criados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Criação de veículos (Carro ou Moto) escolhendo o tipo desejado.
+- Fornecimento de informações sobre modelo, cor e ano do veículo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Como Executar
 
-## Dependency Management
+1. Certifique-se de ter o JDK (Java Development Kit) instalado.
+2. Clone ou faça o download deste repositório.
+3. Compile o código:
+```bash
+javac Fabrica.java
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Execute o programa:
+```bash
+java Fabrica
+```
+
+Siga as instruções no console para criar veículos e explorar o padrão Factory Method.
